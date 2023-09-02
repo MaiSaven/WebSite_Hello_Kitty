@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys & Dolls Store</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Battambang:wght@100&family=Foldit:wght@300&family=IBM+Plex+Sans:ital,wght@0,300;1,400&family=Kaushan+Script&family=Merriweather+Sans&family=Roboto+Mono&family=Siemreap&family=Taprom&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <section class="header-container">
+        <div class="header-logo">
+            <img src="Img/pic1.png" alt="logo">
+        </div>
+        <div class="header-title">
+            <h1>Toy & Dolls</h1>
+        </div>
+        <div class="header-menu">
+            <ul id="menu-item">
+                <!-- <li>Home</li>
+                <li>Product</li>
+                <li>Contact Us</li> -->
+            </ul>
+        </div>
+        <div class="header-btn">
+            
+            <i class="fa-brands fa-searchengin" id="btnSearch"></i>
+            <i class="fa-solid fa-cart-shopping" style="font-size: 22px;"></i>
+            <i class="fa-solid fa-user" style="font-size: 22px;"></i>
+        </div>
+    </section>
+    
+    <!-- Thumnel -->
+    <section>
+        <div class="sw-header">    
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                centered-slides="true" autoplay-delay="5000" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="https://wallpapers.com/images/high/hello-kitty-pictures-qeh7jttp7dhoc0fp.webp" alt="sw-img"></swiper-slide>
+                <swiper-slide><img src="https://wallpapers.com/images/high/kindness-pictures-nbz50kyh69p8kqsz.webp" alt="sw-img"></swiper-slide>
+                <swiper-slide><img src="https://wallpapers.com/images/high/hello-kitty-pictures-g65r56gy9sorj67p.webp" alt="sw-img"></swiper-slide>
+
+            </swiper-container>    
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+        </div>
+    </section>
+
+    <!-- Even -->
+
+    <section>
+        <div class="even">
+            <div class="ev-title">
+                <h2>New Product</h2>
+            </div>
+            <div class="container text-center">
+                <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                    <div class="col-sm" id="hd-box-pic">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Ciao, Salut Hello Kitty and Friends x Sonix Scrunchie Apple Watch Band
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic6.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Sanrio Baby - A new collection meant for even the littlest Sanrio fans.
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic7.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                A lovable pose with a star in hand! Kiki appears
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic8.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                We want you to be happy with your purchase! 
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic9.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Sanrio Baby - A new collection meant for even the littlest Sanrio fans.
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic10.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Sanrio Baby Hello Kitty Washable Plush
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic10.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Sanrio Baby Hello Kitty Washable Plush
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row-box">
+                            <div class="pic">
+                                <img src="/Img/pic10.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                Sanrio Baby Hello Kitty Washable Plush
+                            </div>
+                            <button class="btn btn-info">$99.99</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panel -->
+
+    <section>
+        <div class="panel">
+            <div class="thumbs">
+                <h1 style="text-transform: uppercase;">Shop Plushies</h1>
+            </div>
+            <div class="contain-box">
+                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-sm-1">
+                    <div class="col-sm" data-aos="flip-up">
+                        <div class="row-box panel-box">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                <div class="des-txt">
+                                    <h5>Hello Kitty and Friends Tropical Times 1000-pc Puzzle </h5>
+                                </div>
+                                
+                                <div class="panel-price">
+                                    50$
+                                </div>
+                                <div class="properties">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm" data-aos="flip-up">
+                        <div class="row-box panel-box">
+                            <div class="pic">
+                                <img src="/Img/pic6.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                <div class="des-txt">
+                                    <h5>Hello Kitty and Friends Tropical Times 1000-pc Puzzle </h5>
+                                </div>
+                                
+                                <div class="panel-price">
+                                    75$
+                                </div>
+                                <div class="properties">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm" data-aos="flip-up">
+                        <div class="row-box panel-box">
+                            <div class="pic">
+                                <img src="/Img/pic7.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                <div class="des-txt">
+                                    <h5>Hello Kitty and Friends Tropical Times 1000-pc Puzzle </h5>
+                                </div>
+                                
+                                <div class="panel-price">
+                                    75$
+                                </div>
+                                <div class="properties">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm" data-aos="flip-up">
+                        <div class="row-box panel-box">
+                            <div class="pic">
+                                <img src="/Img/pic7.jfif" alt="">
+                            </div>
+                            <div class="des">
+                                <div class="des-txt">
+                                    <h5>Hello Kitty and Friends Tropical Times 1000-pc Puzzle </h5>
+                                </div>
+                                
+                                <div class="panel-price">
+                                    75$
+                                </div>
+                                <div class="properties">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="thumbs" style=" background-color: rgb(227, 227, 161);">
+                <h1 style="text-transform: uppercase;">Shop Sale</h1>
+            </div>
+            <!-- Scroll page -->
+            <div class="scrollmenu">
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+                <div class="sc-box" data-aos="flip-right" data-aos-duration="950">
+                    <div class="pic">
+                        <img src="/Img/pic5.jfif" alt="">
+                    </div>
+                    <div class="sc-des">
+                        hello Kitty
+                    </div>
+                    <div class="sc-prop">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- show box -->
+            <div class="mini-box">
+                <div class="mini-title">
+                    <h2>Hello</h2>
+                </div>
+                <div class="line"></div>
+                <div class="mini-contain row row-cols-sm-5">
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="con-box" data-aos="flip-right" data-aos-duration="950">
+                            <div class="pic">
+                                <img src="/Img/pic5.jfif" alt="">
+                            </div>
+                            <div class="con-des">
+                                hello Kitty
+                            </div>
+                            <div class="con-prop">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="con-price">
+                                    $50.99
+                                </div>
+                                <button type="button" class="btn btn-outline-info btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+
+        </div>
+    </section>
+
+    <!-- Descrip and Tell about company -->
+    <section>
+        <div class="card">
+            <div class="card-pic" data-aos="fade-up">
+                <img src="/Img/ToyStore.jpg" alt="">
+                <div class="card-des">
+                    At the risk of stating the obvious, let’s just say Tokyo is a hotspot for those prone to collecting the odd figurine or two. 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <section>
+        <div class="footer">
+            <div class="footer-conainer row row-cols-sm-4">
+                <div class="col-sm">
+                    <h5>WORLD OF SANRIO</h5><br>
+                    <p>Store Locator</p>
+                    <p>Character Goodies</p>
+                    <p>Supercute Adventures</p>
+                    <p>Hello Kitty Cafe</p>
+                    <p>About Sanrio</p>
+                </div>
+                <div class="col-sm">
+                    <h5>More</h5><br>
+                    <p>e-Gift Cards</p>
+                    <p>Deals and Promos</p>
+                    <p>Merch by Amazon</p>
+                    <p>Press Releases</p>
+                </div>
+                <div class="col-sm">
+                    <h5>RESOURCES</h5><br>
+                    <p>Privacy Policy</p>
+                    <p>Children's Privacy Policy</p>
+                    <p>Web Accessibility</p>
+                    <p>Terms of Service</p>
+                    <p>Copyright Info</p>
+                </div>
+                <div class="col-sm">
+                    <div class="social-media">
+                        <div class="media">
+                            <img src="Img/facebook.png" alt="">
+                            <p>Mai Saven</p>
+                        </div>
+                        <div class="media">
+                            <img src="Img/telegram 2.png" alt="">
+                            <p>@borot_saven</p>
+                        </div>
+                        <div class="media">
+                            <img src="Img/tiktok.png" alt="">
+                            <p>mai007</p>
+                        </div>
+                        <div class="media">
+                            <img src="Img/tik-tok.png" alt="">
+                            <p>$a-ven</p>
+                        </div>
+                        <div class="media">
+                            <img src="Img/telephone.png" alt="">
+                            <p>012356678</p>
+                        </div>
+                        <h5>Developer: @saven</h5>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="script.js">
+     
+</script>
+
+</html>
