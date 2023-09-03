@@ -33,17 +33,26 @@ $(document).ready(function(){
 
     // click show menu
     var clickMenu = $('#menu-item');
+    const btnLogo = $('.header-logo').click;
 
-    clickMenu.slideUp(0)
+    // clickMenu.slideUp(0)
 
-    $('.header-logo').click(function(){
-        clickMenu.slideToggle(500)
-        btnSearch.slideUp(100)
-    })
+    if(streamMedia() <= 575.98){
+        btnSearch.css("display","flex");
+        btnSearch.slideUp(0);
+        clickMenu.slideUp(0);  
 
-    // if(clickMenu.click){
-    //     btnSearch.slideUp(0)
-    // }
+        $('.header-logo').click(function(){
+            clickMenu.slideToggle(500)
+            btnSearch.slideUp(100)
+            console.log($('.header-logo'))
+        })
+        
+    }else{
+        btnSearch.slideDown(0);
+        clickMenu.slideDown(0);
+        $(".header-logo").disabled = true;
+    }
     
        
     
@@ -57,12 +66,14 @@ $(document).ready(function(){
     //         return numMedia
     //     }
     
-    // // Stream value of Media
-    //     function streamMedia(){
-    //         const viewportWidth = window.innerWidth;
-    //         console.log(`Window Width: ${viewportWidth}`)
-    //         return parseFloat(viewportWidth)
-    //     }   
+    // Stream value of Media
+        function streamMedia(){
+            const viewportWidth = window.innerWidth;
+            console.log(`Window Width: ${viewportWidth}`)
+            return parseFloat(viewportWidth)
+        }   
+
+        
     
     
         // function widthChangeCallback(callBackMedia, callBackStreamMedia) {

@@ -189,7 +189,7 @@ swiper-slide img {
 }
 .even .ev-title>h2{
     text-shadow: 4px 4px 2px yellow;
-    font-family: 'Black Ops One', cursive;
+    /* font-family: 'Black Ops One', cursive; */
     font-weight: bold;
 }
 .row{
@@ -440,20 +440,23 @@ swiper-slide img {
 .mini-box{
     width: 100%;
     overflow: hidden;
+    margin-top: 40px;
     /* background-color: var() */
 }
 .mini-box .mini-title{
-    width: 200px;
+    /* width: 200px; */
+
     height: 50px;
     /* background-color: green; */
     border: 2px solid blue;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+    justify-content: center;
 }
 .mini-title>h2{
     text-shadow: 4px 4px 2px yellow;
-    font-family: 'Black Ops One', cursive;
+    /* font-family: 'Black Ops One', cursive; */
     font-weight: bold;
     color: var(--color-pink);
     margin-top: 6px;
@@ -674,12 +677,26 @@ swiper-slide img {
     .panel-box>.des>.properties{
         bottom: 0px;
     }
+    .panel{
+        width: 100%;
+    }
+    .panel .contain-box{
+        padding: 0 10%;
+    }
+    .panel .contain-box .col-sm{
+        padding: 15px 30px
+    }
+    .mini-box .mini-contain{
+        padding: 0 10%;
+    }
+    
 
     /* card  */
     .card{
         width: 100%;
         /* background-color: red; */
         padding: 20px;
+        margin: 20px 0px;
     }
     .card .card-pic{
         width: 100%;
