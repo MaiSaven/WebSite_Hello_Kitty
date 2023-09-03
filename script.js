@@ -19,25 +19,50 @@ $(document).ready(function(){
         }
     
         $('#menu-item').html(getMenu());
+
+    // * Search button
+    var btnSearch = $('.header-search');
+
+    btnSearch.css("display","flex");
+    btnSearch.slideUp(0);
+
+    $('#btnSearch').click(function(){
+        btnSearch.slideToggle(500)
+        clickMenu.slideUp(100)
+    })
+
+    // click show menu
+    var clickMenu = $('#menu-item');
+
+    clickMenu.slideUp(0)
+
+    $('.header-logo').click(function(){
+        clickMenu.slideToggle(500)
+        btnSearch.slideUp(100)
+    })
+
+    // if(clickMenu.click){
+    //     btnSearch.slideUp(0)
+    // }
     
        
     
-    // Get value of media
-        function getMedia(myMediaQuery){
-            // let myMediaQuery = window.matchMedia('(min-width: 575.98px)');
-            let mdi =myMediaQuery.media;
-            let numsStr = mdi.replace(/[^0-9]\D/g, '');
-                numsStr = numsStr.replace(/[)]/g, '');
-            var numMedia = parseFloat(numsStr);
-            return numMedia
-        }
+    // // Get value of media
+    //     function getMedia(myMediaQuery){
+    //         // let myMediaQuery = window.matchMedia('(min-width: 575.98px)');
+    //         let mdi =myMediaQuery.media;
+    //         let numsStr = mdi.replace(/[^0-9]\D/g, '');
+    //             numsStr = numsStr.replace(/[)]/g, '');
+    //         var numMedia = parseFloat(numsStr);
+    //         return numMedia
+    //     }
     
-    // Stream value of Media
-        function streamMedia(){
-            const viewportWidth = window.innerWidth;
-            console.log(`Window Width: ${viewportWidth}`)
-            return parseFloat(viewportWidth)
-        }   
+    // // Stream value of Media
+    //     function streamMedia(){
+    //         const viewportWidth = window.innerWidth;
+    //         console.log(`Window Width: ${viewportWidth}`)
+    //         return parseFloat(viewportWidth)
+    //     }   
     
     
         // function widthChangeCallback(callBackMedia, callBackStreamMedia) {
@@ -54,41 +79,41 @@ $(document).ready(function(){
 
         // medd.addEventListener('change',widthChangeCallback(getMedia,streamMedia))
         
-        function clickIcon(){
-            $('.header-logo').click(function(){
-                $('#menu-item').slideToggle(500)
-            }) 
-        }
+        // function clickIcon(){
+        //     $('.header-logo').click(function(){
+        //         $('#menu-item').slideToggle(500)
+        //     }) 
+        // }
 
-        let myMediaQuery = window.matchMedia('(min-width: 575.98px)');
-        function widthChangeCallback() {
+        // let myMediaQuery = window.matchMedia('(min-width: 575.98px)');
+        // function widthChangeCallback() {
             
-            // if(getMedia(myMediaQuery) > streamMedia()) {
+        //     // if(getMedia(myMediaQuery) > streamMedia()) {
             
-            var stream = streamMedia()
-            // stream.addEventListener('change');
-            console.log('stream:'+stream)
+        //     var stream = streamMedia()
+        //     // stream.addEventListener('change');
+        //     console.log('stream:'+stream)
             
-            if( stream <= 575.98 ) {
-                $('#menu-item').slideUp(0)
-                clickIcon()
-            }
-            else if( stream > 575.98 ){
-                $('#menu-item').slideDown(0)
-                $('.header-logo').click(function(){
-                    clickIcon()
-                }) 
+        //     if( stream <= 575.98 ) {
+        //         $('#menu-item').slideUp(0)
+        //         clickIcon()
+        //     }
+        //     else if( stream > 575.98 ){
+        //         $('#menu-item').slideDown(0)
+        //         $('.header-logo').click(function(){
+        //             clickIcon()
+        //         }) 
 
-            }
-        }
-        // widthChangeCallback()
+        //     }
+        // }
+        // // widthChangeCallback()
 
-        function Todo(){
-            // widthChangeCallback()
-            myMediaQuery.addEventListener('change', widthChangeCallback);
-        }
+        // function Todo(){
+        //     // widthChangeCallback()
+        //     myMediaQuery.addEventListener('change', widthChangeCallback);
+        // }
 
-        Todo()
+        // Todo()
 
 
 
