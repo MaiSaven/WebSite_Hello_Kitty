@@ -235,7 +235,7 @@ $(document).ready(function(){
 
         var scrollProduct =[
             {
-                'Image':'/Img/scAnime1 Luffy Gear123.webp',
+                'Image':'/Img/scAnime1 Luffy Gear.webp',
                 'Description':'Luffy Gear',
                 'Price':'189',
                 'Star': 3
