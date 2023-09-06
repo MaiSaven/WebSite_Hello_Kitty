@@ -179,61 +179,61 @@ $(document).ready(function(){
             {
                 'Image':'/Img/anime1.avif',
                 'Description':'Sasuke',
-                'Price':'60.99',
+                'Price':'87',
                 'Star': 5
             },
             {
                 'Image':'/Img/anime2.webp',
                 'Description':'Nika Luffy',
-                'Price':'60.99',
+                'Price':'92',
                 'Star': 5
             },
             {
                 'Image':'/Img/anime3.avif',
                 'Description':'Nika Luffy',
-                'Price':'60.99',
+                'Price':'79.99',
                 'Star': 4
             },
             {
                 'Image':'/Img/anime4.avif',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'75',
                 'Star': 5
             },
             {
                 'Image':'/Img/anime5.avif',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'95',
                 'Star': 3
             },
             {
                 'Image':'/Img/anime6.jpg',
                 'Description':'Naruto',
-                'Price':'60.99',
+                'Price':'87',
                 'Star': 4
             },
             {
                 'Image':'/Img/anime7.avif',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'87',
                 'Star': 4
             },
             {
                 'Image':'/Img/anime8.avif',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'83',
                 'Star': 4
             },
             {
                 'Image':'/Img/anime9.jpg',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'89.99',
                 'Star': 3
             },
             {
                 'Image':'/Img/anime10.avif',
                 'Description':'Boy Anime',
-                'Price':'60.99',
+                'Price':'76',
                 'Star': 4
             },   
         ]
@@ -478,6 +478,14 @@ $(document).ready(function(){
 
         $('#scroll-product').html(fetScrollProduct)
 
+
+    // Toasts
+    
+    // $('#logins').click(function(){
+    //     setTimeout(
+    //         $('.toasts').css('display','block')
+    //     , 5000);
+    // })
 
 
 })

@@ -89,11 +89,21 @@ body{
     /* background-color: green; */
 
 }
-.header-btn>i{
+.header-btn>a{
+    /* background-color: red; */
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header-btn>a>i{
     margin: 6px;
+    
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
 .header-btn #btnSearch{
     text-shadow: 0px 0px 4px var(--color-blue);
     color: aliceblue;
@@ -579,6 +589,17 @@ swiper-slide img {
 
 
 
+.toasts{
+    width: 100%;
+    height: 681px;
+    background-color: rgb(239, 223, 255);
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .header-container{
@@ -618,10 +639,10 @@ swiper-slide img {
         float: left;
     }
     .header-menu ul li{
-        margin: 0;
         padding: 10px;
         float: none;
-        width: 100px;
+        margin: 0px;
+        /* width: 100px; */
     }
   
     .header-btn{
@@ -631,6 +652,9 @@ swiper-slide img {
     }
     .header-btn #btnSearch{
         display: block;
+    }
+    #logins{
+        margin-right: 16px;
     }
 
     .header-search{
